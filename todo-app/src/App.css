@@ -1,0 +1,126 @@
+.App {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f8f8f8;
+  padding: 20px;
+}
+
+.heading {
+  text-align: left;
+  margin-bottom: 20px;
+  padding: 10px 100px;
+  border-style: dashed;
+  border-radius: 7px;
+}
+
+.todo-container {
+  width: 100%;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+  padding: 8px;
+  background-color: #cdcbcb;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.todo-item p {
+  color: black;
+  margin: 0;
+}
+
+.complete-btn {
+  background-color: green;
+  color: #fff;
+  border: none;
+  padding: 10px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.delete-btn {
+  background-color: rgb(230, 0, 0);
+  color: #fff;
+  border: none;
+  padding: 10px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.undo-btn{
+  background-color: grey;
+  color: #fff;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.add-btn{
+  background-color: rgb(13, 182, 19);
+  color: #fff;
+  padding: 10px 25px;
+  margin-left: px;
+  border-radius: 4px;
+  cursor: pointer;
+
+}
+.taskbar{
+  margin-top: 50px;
+  margin-bottom: 88px;
+  margin-right: 5px;
+  padding: 10px 100px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.priority-dropdown{
+  background-color: rgb(84, 104, 233);
+  color: #fff;
+  padding: 10px 12px;
+  margin-right: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+  
+}
+.high-priority {
+  background-color: orange;
+}
+
+.medium-priority {
+  background-color: yellow;
+}
+
+.low-priority {
+  background-color: rgb(33, 243, 33);
+}
+
+.overdue {
+  background-color: rgb(254, 66, 66);
+}
+.search-input{
+  margin-top: 50px;
+  margin-right: 5px;
+  padding: 10px 160px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.search-btn{
+  background-color: rgb(13, 182, 19);
+  color: #fff;
+  padding: 10px 25px;
+  margin-left: px;
+  border-radius: 4px;
+  cursor: pointer;
+}
